@@ -1,0 +1,151 @@
+*{
+    font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica",
+    "Arial", "sans-serif";
+    font-size: 14px;
+}
+
+.post{
+    max-width: 614px;
+    margin: auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.header{
+    padding: 6px;
+    display:flex;
+    grid-gap: 6px;
+    margin: 0;       
+}
+
+.header .story{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background:
+    radial-gradient(rgba(0,0,0,0.15) 60%, transparent 0),
+    radial-gradient(white 64%, transparent 0),
+    linear-gradient(to top right, yellow, orange, red, deeppink, purple);
+}
+
+.header .story img{
+    object-fit: cover;
+    clip-path: circle(42%);
+}
+
+.userName{
+    display: flex;
+    align-items: center;
+    color: #262626;
+    font-weight: 600;
+    text-decoration: none;  
+}
+
+.photo{
+    width: 100%;
+}
+
+.photoBelow{
+    padding: 0px 16px;
+}
+
+.iconsPhoto{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+}
+
+.icon-heart{
+    text-decoration: none;
+    color: #262626;
+    font-size: 22px;    
+}
+
+.icon-heart:hover{
+    color: #dc3545;
+}
+
+.icon-bubble{
+    text-decoration: none;
+    padding: 0px 13px;
+    color: #262626;
+    font-size: 22px;
+}
+
+.icon-bubble:hover{
+    color: #007bff;
+}
+
+.icon-share-alt{
+    text-decoration: none;
+    color: #262626;
+    font-size: 22px;
+}
+
+.icon-share-alt:hover{
+    color: #28a745;
+}
+
+.icon-tag{
+    text-decoration: none;
+    color: #262626;
+    font-size: 22px;
+}
+
+.icon-tag:hover{
+    color: #6c757d;
+}
+
+.likes{
+    color: #262626;
+    margin: 14px 0px;  
+}
+
+.userDescription{ 
+    margin-bottom: 14px;
+}
+.userNameComments{
+    font-weight: 600;
+    color: #262626;
+    text-decoration: none;  
+}
+
+.markedName{
+    color: #003569;
+    text-decoration: none;
+}
+
+.comments{
+    padding: 8px 0px;
+    border-top: 1px solid #efefef;
+    border-bottom:  1px solid #efefef;  
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin: 8px 0px;
+    list-style: none;   
+}
+
+.minutesAgo{
+    font-size: 10px;
+    color: #999;
+}
+
+.textComment{
+    border: none;
+    width: 100%;
+    height: 55px;
+    outline: 0;
+    padding: 0px;
+}
+
+.textComment:focus::placeholder{
+    color: transparent;
+}
